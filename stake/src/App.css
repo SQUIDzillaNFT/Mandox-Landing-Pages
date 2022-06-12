@@ -404,9 +404,9 @@ input:disabled{
   width: 650px;
 }
 .logo-img {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   position: top;
-  size: 80%;
+  size: 100%;
 
 }
 
@@ -477,7 +477,7 @@ button {
   font-size: xx-large;
   margin: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: italic;
+  font-style: bold;
   border: double;
   border-radius: 12px;
   border-color: #bfbfd6;
@@ -489,4 +489,5 @@ button {
 button:hover {
   color: #61dafb;
   border-color: #ff0099;
+  size-adjust: 120%;
 }

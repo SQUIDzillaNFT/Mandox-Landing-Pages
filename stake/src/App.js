@@ -12,6 +12,7 @@ function App() {
         <div className="main-section">
       
         <img src={logo} className="logo-img" alt="logo" />
+        
         <h1>
           Choose your Stake.
         </h1>
