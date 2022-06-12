@@ -404,7 +404,8 @@ input:disabled{
   width: 650px;
 }
 .logo-img {
-  padding-bottom: 5px;
+  padding-top: 10px;
+  margin-top: 50px;
   position: top;
   size: 100%;
 
