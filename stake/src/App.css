@@ -427,7 +427,7 @@ input:disabled{
 }
 
 .content img {
-  width: 550px;
+  width: 500px;
 }
 
 
@@ -473,10 +473,20 @@ h1 {
 
 button {
   background-color: #0a0a0a00;
-  color: #ff00d9;
+  color: #ff0099;
+  font-size: xx-large;
+  margin: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  border: double;
+  border-radius: 12px;
+  border-color: #bfbfd6;
+  border-width: 3px;
+  padding: 8px;
   
 }
 
 button:hover {
   color: #61dafb;
+  border-color: #ff0099;
 }
