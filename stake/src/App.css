@@ -1,4 +1,4 @@
-body, html {height: 100%}
+body, html {height: 80%}
 
 
 .App {
@@ -35,15 +35,7 @@ body, html {height: 100%}
   color: #61dafb;
 }
 
-.mint-page {
-  background: url(images/Bioape.mp4) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-}
+
 
 .logo-icon {
   /* height: 250px; */
@@ -404,16 +396,16 @@ input:disabled{
   width: 650px;
 }
 .logo-img {
-  padding-top: 10px;
-  margin-top: 50px;
-  position: top;
-  size: 100%;
+  margin-top: 185px;
+  size: 50%;
+
+
 
 }
 
 .main-section {
   position:fixed;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -462,12 +454,10 @@ h1 {
 }
 
 .tokenStake {
-  margin-right: 2px;
   align-content: center;
 }
 
 .nftStake {
-  margin-left: 2px;
   align-content: center;
 
 }
@@ -475,15 +465,15 @@ h1 {
 button {
   background-color: #0a0a0a00;
   color: #ff0099;
-  font-size: x-large;
-  margin: 10px;
+  font-size: large;
+  margin: 2px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: bold;
   border: double;
-  border-radius: 12px;
-  border-color: #bfbfd6;
-  border-width: 3px;
-  padding: 8px;
+  border-radius: 9px;
+  border-color: #ffffff;
+  border-width: 2px;
+  padding: 3px;
   
 }
 
@@ -491,4 +481,18 @@ button:hover {
   color: #61dafb;
   border-color: #ff0099;
   size-adjust: 120%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+}
+
+.soon {
+  margin-bottom: 200px;
+  margin-top: 0px;
+  padding-bottom: 80px;
+  height: 25vh;
 }
