@@ -38,12 +38,12 @@ function App() {
         <div className="soon">
           <h2>Coming Soon...</h2>
         <span>
-        <a className="bio" href="" target="_blank" rel="noreferrer">
+        <a className="bio" href="https://opensea.io/collection/bioapesclub" target="_blank" rel="noreferrer">
           <Button> <img src={bio}/>  </Button>
         </a>
         </span>
         <span>
-        <a className="lost" href="" target="_blank" rel="noreferrer">
+        <a className="lost" href="https://lostkidsmint.com" target="_blank" rel="noreferrer">
           <Button>  <img src={lost}/>  </Button>
         </a>
         </span>
