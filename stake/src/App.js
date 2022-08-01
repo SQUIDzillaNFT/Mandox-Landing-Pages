@@ -34,14 +34,15 @@ function App() {
           <Button>   <img src={cyborx}/>   </Button>
         </a>
         </span>
+        <div>
+        <a className="bio" href="https://www.bioapes.farm" target="_blank" rel="noreferrer">
+          <Button> <img src={bio}/>  </Button>
+        </a>
+        </div>
         </div>
         <div className="soon">
           <h2>Coming Soon...</h2>
-        <span>
-        <a className="bio" href="https://opensea.io/collection/bioapesclub" target="_blank" rel="noreferrer">
-          <Button> <img src={bio}/>  </Button>
-        </a>
-        </span>
+
         <span>
         <a className="lost" href="https://lostkidsmint.com" target="_blank" rel="noreferrer">
           <Button>  <img src={lost}/>  </Button>
