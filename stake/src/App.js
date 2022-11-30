@@ -6,6 +6,7 @@ import laced from './images/laced.png';
 import token from './images/token2.png';
 import lost from './images/lost.png';
 import bio from './images/bio.png';
+import eva from './images/eva.png';
 
 function App() {
   return (
@@ -44,8 +45,13 @@ function App() {
           <h2>Coming Soon...</h2>
 
         <span>
-        <a className="lost" href="https://lostkidsmint.com" target="_blank" rel="noreferrer">
+        <a className="lost" href="https://opensea.io/collection/thelostkids" target="_blank" rel="noreferrer">
           <Button>  <img src={lost}/>  </Button>
+        </a>
+        </span>
+        <span>
+        <a className="eva" href="https://opensea.io/collection/evatribe" target="_blank" rel="noreferrer">
+          <Button>  <img src={eva}/>  </Button>
         </a>
         </span>
         </div>
