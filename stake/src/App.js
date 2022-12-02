@@ -25,6 +25,7 @@ function App() {
         </a>
         <div>
           <h2>NFT Staking</h2>
+          
          <span> 
         <a className="nftStake" href="https://lacedameon.farm" target="_blank" rel="noreferrer">
           <Button><img src={laced}/></Button>
@@ -40,6 +41,11 @@ function App() {
           <Button> <img src={bio}/>  </Button>
         </a>
         </div>
+        <span>
+        <a className="eva" href="https://www.evastake.com" target="_blank" rel="noreferrer">
+          <Button>  <img src={eva}/>  </Button>
+        </a>
+        </span>
         </div>
         <div className="soon">
           <h2>Coming Soon...</h2>
@@ -49,11 +55,7 @@ function App() {
           <Button>  <img src={lost}/>  </Button>
         </a>
         </span>
-        <span>
-        <a className="eva" href="https://opensea.io/collection/evatribe" target="_blank" rel="noreferrer">
-          <Button>  <img src={eva}/>  </Button>
-        </a>
-        </span>
+
         </div>
         
 
