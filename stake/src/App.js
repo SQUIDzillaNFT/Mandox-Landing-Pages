@@ -18,13 +18,13 @@ function App() {
         <h1>
           Choose your Stake.
         </h1>
-        <h2>Token Staking</h2>
+        <h2>- Token Staking -</h2>
       
         <a className="tokenStake" href="https://mandoxstake.com" target="_blank" rel="noreferrer">
           <Button><img src={token}/></Button>
         </a>
         <div>
-          <h2>NFT Staking</h2>
+          <h2>- NFT Staking -</h2>
           
          <span> 
         <a className="nftStake" href="https://lacedameon.farm" target="_blank" rel="noreferrer">
@@ -36,7 +36,7 @@ function App() {
           <Button>   <img src={cyborx}/>   </Button>
         </a>
         </span>
-        <div>
+        
         <a className="bio" href="https://www.bioapes.farm" target="_blank" rel="noreferrer">
           <Button> <img src={bio}/>  </Button>
         </a>
@@ -46,12 +46,11 @@ function App() {
           <Button>  <img src={eva}/>  </Button>
         </a>
         </span>
-        </div>
-        <div className="soon">
-          <h2>Coming Soon...</h2>
+       
+
 
         <span>
-        <a className="lost" href="https://opensea.io/collection/thelostkids" target="_blank" rel="noreferrer">
+        <a className="lost" href="https://lostkids.farm" target="_blank" rel="noreferrer">
           <Button>  <img src={lost}/>  </Button>
         </a>
         </span>
@@ -59,7 +58,7 @@ function App() {
         </div>
         
 
-        </div>
+        
 
    
     </div>

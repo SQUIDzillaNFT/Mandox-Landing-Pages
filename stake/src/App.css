@@ -10,8 +10,13 @@ html {
   color: rgb(255, 255, 255);
   height: 100vh;
   font-weight: bold;
-  background-image: linear-gradient(rgb(21, 13, 25), rgb(15, 8, 16), rgb(0, 0, 0));
+  background-image: linear-gradient(rgb(23, 14, 28), rgb(15, 8, 16), rgb(0, 0, 0));
   scroll-behavior: smooth;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -389,7 +394,7 @@ input:disabled{
   margin-top: 150px;
   height: fit-content;
   width: auto;
-  margin-top: 300px;
+  margin-top: 225px;
 }
 
 
@@ -433,6 +438,7 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
   justify-content: center;
+  font-style: oblique;
 }
 
 .tokenStake {
@@ -470,6 +476,8 @@ h2 {
   justify-content: center;
   align-items: center;
   font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
 }
 
 .soon {
@@ -485,4 +493,5 @@ h2 {
 
 .t1 {
   font-size: large;
+  font-family: 'Courier New', Courier, monospace;
 }
