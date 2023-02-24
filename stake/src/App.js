@@ -1,68 +1,36 @@
-import logo from './images/biglogo.png';
-import './App.css';
-import { Button} from 'react-bootstrap';
-import cyborx from './images/cyborx.png';
-import laced from './images/laced.png';
-import token from './images/token2.png';
-import lost from './images/lost.png';
-import bio from './images/bio.png';
-import eva from './images/eva.png';
+import React, {useState} from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import Notice from './notice';
+import Home from './home';
+
+
 
 function App() {
+
   return (
-    <div className="App">
 
-        <div className="main-section">
+      <div className="main">
 
-        <t1 className="t1"> Welcome to Mandox.Farm</t1>
-        <h1>
-          Choose your Stake.
-        </h1>
-        <h2>- Token Staking -</h2>
-      
-        <a className="tokenStake" href="https://mandoxstake.com" target="_blank" rel="noreferrer">
-          <Button><img src={token}/></Button>
-        </a>
-        <div>
-          <h2>- NFT Staking -</h2>
-          
-         <span> 
-        <a className="nftStake" href="https://lacedameon.farm" target="_blank" rel="noreferrer">
-          <Button><img src={laced}/></Button>
-        </a>
-        </span>
-        <span>
-        <a className="cb" href="https://cyborx.farm" target="_blank" rel="noreferrer">
-          <Button>   <img src={cyborx}/>   </Button>
-        </a>
-        </span>
-        
-        <a className="bio" href="https://www.bioapes.farm" target="_blank" rel="noreferrer">
-          <Button> <img src={bio}/>  </Button>
-        </a>
-        </div>
-        <span>
-        <a className="eva" href="https://www.evastake.com" target="_blank" rel="noreferrer">
-          <Button>  <img src={eva}/>  </Button>
-        </a>
-        </span>
-       
+          <div className="container">
+
+            <Router>
+              <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="notice" element={<Notice/>}/>
+              </Routes>
 
 
-        <span>
-        <a className="lost" href="https://lostkids.farm" target="_blank" rel="noreferrer">
-          <Button>  <img src={lost}/>  </Button>
-        </a>
-        </span>
 
-        </div>
-        
+            </Router>
+          </div>
+        {/*</Spin>*/}
 
-        
-
-   
-    </div>
-    
+      </div>
 
   );
 }

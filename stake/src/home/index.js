@@ -1,0 +1,84 @@
+import logo from '../images/biglogo.png';
+import '../App.css';
+import { Button} from 'react-bootstrap';
+import cyborx from '../images/cyborx.png';
+import laced from '../images/laced.png';
+import token from '../images/token2.png';
+import lost from '../images/lost.png';
+import bio from '../images/bio.png';
+import eva from '../images/eva.png';
+import {Link} from "react-router-dom";
+
+function App() {
+  return (
+    <div className="App">
+
+        <div className="main-section">
+
+        
+
+        <t1 className="t1"> Welcome to Mandox.Farm  
+
+        </t1>
+        <div className="welcome">
+        <div className="message">
+          Please Click below to read an Important Announcement
+        </div>
+        <a>
+          <Link to='/Notice' className="notice">***Click Here***</Link>
+          </a>
+        </div>
+
+        <h1>
+          Choose your Stake.
+        </h1>
+        <h2>- Token Staking -</h2>
+
+        <a className="tokenStake" href="https://mandoxstake.com" target="_blank" rel="noreferrer">
+          <Button><img src={token}/></Button>
+        </a>
+        <div>
+          <h2>- NFT Staking -</h2>
+          
+         <span> 
+        <a className="nftStake" href="https://lacedameon.farm" target="_blank" rel="noreferrer">
+          <Button><img src={laced}/></Button>
+        </a>
+        </span>
+        <span>
+        <a className="cb" href="https://cyborx.farm" target="_blank" rel="noreferrer">
+          <Button>   <img src={cyborx}/>   </Button>
+        </a>
+        </span>
+        
+        <a className="bio" href="https://www.bioapes.farm" target="_blank" rel="noreferrer">
+          <Button> <img src={bio}/>  </Button>
+        </a>
+        </div>
+        <span>
+        <a className="eva" href="https://www.evastake.com" target="_blank" rel="noreferrer">
+          <Button>  <img src={eva}/>  </Button>
+        </a>
+        </span>
+       
+
+
+        <span>
+        <a className="lost" href="https://lostkids.farm" target="_blank" rel="noreferrer">
+          <Button>  <img src={lost}/>  </Button>
+        </a>
+        </span>
+
+        </div>
+        
+
+        
+
+   
+    </div>
+    
+
+  );
+}
+
+export default App;

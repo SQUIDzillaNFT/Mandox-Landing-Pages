@@ -494,4 +494,57 @@ h2 {
 .t1 {
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+
+.pr {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.main-section2 {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  margin-top: 150px;
+  height: fit-content;
+  width: auto;
+  margin-top: 225px;
+}
+
+.main-section2 img {
+  width: 500px;
+}
+
+
+
+.notice {
+  font-size: x-large;
+  color: aqua;
+  text-decoration:none;  
+}
+
+.notice:hover {
+  color: #f7f7f7;
+  font-size: xxx-large;
+
+}
+
+.welcome {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.message {
+  padding: 5px;
 }
