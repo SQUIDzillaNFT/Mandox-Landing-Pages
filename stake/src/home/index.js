@@ -7,6 +7,7 @@ import token from '../images/token2.png';
 import lost from '../images/lost.png';
 import bio from '../images/bio.png';
 import eva from '../images/eva.png';
+import gem from '../images/GEM.png';
 import {Link} from "react-router-dom";
 
 function App() {
@@ -28,6 +29,19 @@ function App() {
           <Link to='/Notice' className="notice">***Click Here***</Link>
           </a>
         </div>
+        <br/>
+        <t1 className="t1"> NFT Staking Ends 11/15/2023 
+
+</t1><br/>
+<t1 className="t1"> Please unstake your NFTs 
+
+</t1>
+<h1>
+          Gem is now Live!
+        </h1>
+        <a className="tokenStake" href="https://mandoxgem.com" target="_blank" rel="noreferrer">
+          <Button><img src={gem}/></Button>
+        </a>
 
         <h1>
           Choose your Stake.
