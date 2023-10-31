@@ -391,10 +391,16 @@ input:disabled{
   padding: 20px;
   min-height: 100vh;
   scroll-behavior: smooth;
-  margin-top: 150px;
   height: fit-content;
   width: auto;
-  margin-top: 225px;
+  margin-top: 250px;
+}
+
+/* Media query for mobile devices with a maximum width of, for example, 768px */
+@media (max-width: 768px) {
+  .main-section {
+    margin-top: 550px; /* Adjust this value as needed for mobile devices */
+  }
 }
 
 
