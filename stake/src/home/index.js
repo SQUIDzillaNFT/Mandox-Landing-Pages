@@ -30,7 +30,7 @@ function App() {
           </a>
         </div>
         <br/>
-        <t1 className="t1"> NFT Staking Ends 11/15/2023 
+        <t1 className="t1"> NFT Staking Ended 11/15/2023
 
 </t1><br/>
 <t1 className="t1"> Please unstake your NFTs 
@@ -46,31 +46,26 @@ function App() {
         <h1>
           Choose your Stake.
         </h1>
-        <h2>- Token Staking -</h2>
-
-        <a className="tokenStake" href="https://mandoxstake.com" target="_blank" rel="noreferrer">
-          <Button><img src={token}/></Button>
-        </a>
         <div>
           <h2>- NFT Staking -</h2>
           
          <span> 
-        <a className="nftStake" href="https://lacedameon.farm" target="_blank" rel="noreferrer">
+        <a className="nftStake" href="https://laceystake.mandoxgem.com" target="_blank" rel="noreferrer">
           <Button><img src={laced}/></Button>
         </a>
         </span>
         <span>
-        <a className="cb" href="https://cyborx.farm" target="_blank" rel="noreferrer">
+        <a className="cb" href="https://cybstake.mandoxgem.com" target="_blank" rel="noreferrer">
           <Button>   <img src={cyborx}/>   </Button>
         </a>
         </span>
         
-        <a className="bio" href="https://www.bioapes.farm" target="_blank" rel="noreferrer">
+        <a className="bio" href="https://biostake.mandoxgem.com" target="_blank" rel="noreferrer">
           <Button> <img src={bio}/>  </Button>
         </a>
         </div>
         <span>
-        <a className="eva" href="https://www.evastake.com" target="_blank" rel="noreferrer">
+        <a className="eva" href="https://evastake.mandoxgem.com" target="_blank" rel="noreferrer">
           <Button>  <img src={eva}/>  </Button>
         </a>
         </span>
@@ -78,7 +73,7 @@ function App() {
 
 
         <span>
-        <a className="lost" href="https://lostkids.farm" target="_blank" rel="noreferrer">
+        <a className="lost" href="https://loststake.mandoxgem.com" target="_blank" rel="noreferrer">
           <Button>  <img src={lost}/>  </Button>
         </a>
         </span>
